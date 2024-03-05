@@ -1,0 +1,24 @@
+p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#logoImg{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoImg Img{
+    border: 1px solid black;
+    border-radius: 200px;
+    height: 400px;
+}
+
+@media screen and (max-width: 500px){
+    #logoImg img{
+        height: 300px;
+    } 
+}

@@ -1,0 +1,17 @@
+*{
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    margin-top: 2%;
+}
+
+#projectCardDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+}
+iframe{
+    height: 60%;
+}

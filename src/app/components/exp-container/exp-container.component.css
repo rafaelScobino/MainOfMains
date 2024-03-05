@@ -1,0 +1,46 @@
+.expDiv{
+    padding-top: 30px;
+    margin:auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .expDiv{
+        padding-top: 30px ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .expDiv{
+        padding-top: 40px ;
+    }
+    .projectsDiv{
+        padding-top: 40px;
+    }
+}
+
+.expDivTitle{
+    background-color: rgba(255,145,77, 1) ;
+    height: auto;
+    padding: 20px;
+    margin: 3% 0 ;
+}
+
+
+.expDesc ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+@media screen and (max-width: 780px) {
+    .expDesc ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.expCards:hover{
+    transform: translateY(5px);
+}
