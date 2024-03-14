@@ -1,17 +1,54 @@
-*{
-    border: 1px solid black;
-    clear: both;
+.projectsSection{
+    padding-top: 30px;
+    margin:auto;
+    text-align: center;
 }
-#projectCarouselDiv{
-    display: grid;
-    grid-column-gap: 2%;
-    grid-template-rows: 1fr;
-    grid-template-columns:repeat(auto-fill, minmax(20%,32%));
-    clear: both;
-}
-   
 
-app-project-card{
+@media screen and (max-width: 1000px) {
+    .projectsSection{
+        padding-top: 30px ;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projectsSection{
+        padding-top: 40px ;
+    }
+    .projectsDiv{
+        padding-top: 40px;
+    }
+}
+
+.projectsDivTitle{
+    background-color: rgba(255,145,77, 1) ;
+    height: auto;
+    padding: 20px;
+    margin: 3% 0 ;
+}
+
+
+.projectsCarousel ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1%;
+}
+
+@media screen and (max-width: 780px) {
+    .projectsCarousel ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.projCards{
     height: 100%;
     width: 100%;
 }
+
+.projCardsLi:hover{
+    transform: translateY(5px);
+}
+
+

@@ -1,5 +1,60 @@
-<div id="projectCarouselDiv" class="projectCarousel">
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
-    <app-project-card></app-project-card>
+<section id="projectsSection" class="projectsSection">
+<div id="projectsDivTitle" class="projectsDivTitle">
+    <h1>Projetos:</h1>
 </div>
+<div id="projectsDiv" class="projectsCarousel">
+    <ul>    
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/scoRafa.mp4'"
+            [projTitle]="'scorafa.com'"
+            [projDesc]="'Site portfolio pessoal feito em Angular. build gerada para hospedagem Web.'"
+            [projLink]="'https://github.com/rafaelScobino/MainOfMains'"
+            [projLinkDesc]="'GitHub Repository'"
+        ></app-project-card>
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/creditSystem.mp4'"
+            [projTitle]="'Customer - Credit System'"
+            [projDesc]="'Um sistema desenvolvido em Kotlin utilizando SpringBoot e gradle que permite criar um Banco de Dados local salvando dados de Customers e Credits através de requisições. Testado com POSTMAN'"
+            [projLink]="'https://github.com/rafaelScobino/credit-application-system'"
+            [projLinkDesc]="'Customer - Credit System'"
+        ></app-project-card></li> 
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/AngularBlog.mp4'"
+            [projTitle]="'Angular Blog'"
+            [projDesc]="'Primeiro projeto em Angular de um blog  para estudar routing no framework'"
+            [projLink]="'https://github.com/rafaelScobino/Angular-blog'"
+            [projLinkDesc]="'Angular Blog'"
+        ></app-project-card></li> 
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/PokeDex.mp4'"
+            [projTitle]="'PokeDex'"
+            [projDesc]="'PokeDex simples feito por meio de conexão com API e manipulando JSON para gerar components dinamicamente'"
+            [projLink]="'https://github.com/rafaelScobino/Pokedex-BootcampDio'"
+            [projLinkDesc]="'PokeDex'"
+        ></app-project-card></li>   
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/OrganiZobra 1.mp4'"
+            [projTitle]="'OrganiZobra'"
+            [projDesc]="'Organizador  de funcionários que permite facilitar a geração de tabelas especificas fornecendo uma visão individual e geral de uma ou mais obras. Projeto feito com HTML|CSS|JAVASCRIPT puro utilizando components feitos manualmente '"
+            [projLink]="'https://github.com/rafaelScobino/OrganizObra'"
+            [projLinkDesc]="'OrganizObra'"
+        ></app-project-card></li> 
+        <!-- <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/MRC.mp4'"
+            [projTitle]="'Landing Page MRC'"
+            [projDesc]="'Projeto de uma Landing Page responsiva para uma empresa de engenharia. Utilizando tecnologias básicas: HTML|CSS|JAVASCRIPT'"
+            [projLink]="'https://github.com/rafaelScobino/Freelance1'"
+            [projLinkDesc]="'Landing Page MRC'"
+        ></app-project-card></li>  -->
+        <li class="projCardsLi"><app-project-card class="projCards"
+            [projUrl]="'./../../../assets/ToZALpha.mp4'"
+            [projTitle]="'TowerOfZanasGame'"
+            [projDesc]="'Projeto de um jogo feito Inteiramente em java Utilizando técnicas de POO, projetando a GUI com swing e compilando o projeto com maven para gerar um jar executável. '"
+            [projLink]="'./tzanas/index.html'"
+            [projLinkDesc]="'Versão Web'"
+        ></app-project-card></li> 
+    </ul>
+    
+    
+</div>
+</section>
