@@ -1,6 +1,4 @@
-.expCards:hover{
-    transform: translateY(5px);
-}
+
 
 #projectCardDiv{
     display: flex;

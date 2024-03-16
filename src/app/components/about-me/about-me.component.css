@@ -46,6 +46,16 @@
     }
 }
 
+@media screen and ( max-width: 450px) {
+    .topics{
+        margin-top: 10%;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+
+    }
+}
+
 #langsLi{
     padding: 0;
     list-style: none;

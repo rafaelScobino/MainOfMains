@@ -15,6 +15,7 @@ export class ProjectCardComponent {
   @Input({required:true})projDesc!:string;
   @Input({required:true})projLink!:string;
   @Input({required:true})projLinkDesc!:string;
-
+  @Input({required:false})projLink2!:string;
+  @Input({required:false})projLinkDesc2!:string;
 
 }

@@ -1,4 +1,5 @@
 .projectsSection{
+    overflow-y:visible;
     padding-top: 30px;
     margin:auto;
     text-align: center;
@@ -43,8 +44,10 @@
 }
 
 .projCards{
+    display: flex;
     height: 100%;
     width: 100%;
+    z-index: 1;
 }
 
 .projCardsLi:hover{
